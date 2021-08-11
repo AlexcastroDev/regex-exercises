@@ -1,0 +1,1 @@
+module.exports = (payload, regexp) => payload.filter(item => item.match(new RegExp(regexp)))
